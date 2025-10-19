@@ -1,0 +1,64 @@
+/* Media (Tablets) */
+@media (min-width:43rem) {
+    body{
+        background: url(images/bg-desktop.svg) var(--Purple-700);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .huddle-landing-page img{
+        margin-inline: auto;
+    }
+    .huddle-landing-page{
+        max-width: 150rem;
+    }
+    
+}
+/* Media (Desktop) */
+@media (min-width:64rem) {
+    body{
+        background: url(images/bg-desktop.svg) var(--Purple-700);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .huddle-landing-page__logo{
+        width: 26rem;
+        margin-block-end: 0;
+        margin-block-start: 6rem;
+    }
+    .huddle-landing-page img{
+        /* width: 50rem; */
+        margin-inline: auto;
+    }
+    .huddle-landing-page{
+        max-width: 130rem;
+        padding-inline: 4rem;
+        flex-direction: row;
+        margin-block-start: 4rem;
+        
+    }
+    .huddle-landing-page img{
+        margin-block-start: 2rem;
+        width: 65rem;
+    }
+    .huddle-landing-page__write-up{
+        text-align: left;
+        padding: 4rem;
+        margin-block-start: 2rem;
+        padding: 3.5rem;
+    }
+    .huddle-landing-page__btn{
+        justify-content: left;
+        margin-inline: 0;
+    }
+    .huddle-landing-page__write-up h1{
+        font-size: 4rem;
+    }
+    .huddle-landing-page__social-icons{
+        margin-inline-end: 3rem;
+        justify-content: end;
+    }
+    .social_icons{
+        justify-content: end;
+    }
+}
