@@ -2,7 +2,7 @@
 @media (min-width:43rem) {
     body{
         background: url(images/bg-desktop.svg) var(--Purple-700);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
     }
     .huddle-landing-page img{
