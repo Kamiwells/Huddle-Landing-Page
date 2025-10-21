@@ -25,6 +25,7 @@
         width: 26rem;
         margin-block-end: 0;
         margin-block-start: 6rem;
+        margin-inline: 12rem;
     }
     .huddle-landing-page img{
         /* width: 50rem; */
